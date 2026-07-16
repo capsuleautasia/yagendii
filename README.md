@@ -65,3 +65,13 @@ Vite genera la carpeta `dist`.
 3. Agendar cliente.
 4. Editar, llamar o convertir.
 5. Al convertir, la función SQL inserta la venta y elimina la oportunidad dentro de una sola transacción.
+
+## Nota sobre npm
+
+Este paquete usa el registro público oficial de npm. Si npm intenta conectarse a otro registro, ejecuta:
+
+```bash
+npm config set registry https://registry.npmjs.org/
+npm cache verify
+npm install
+```
